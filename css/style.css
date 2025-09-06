@@ -1,0 +1,17 @@
+#banner>img {
+    width: 100px;
+    height: auto;
+}
+
+div.hero_section {
+    background-color: #2F3849;
+    width: var(.hero_section);
+    height: 800px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(#banner);
+}
