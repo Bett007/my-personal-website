@@ -73,10 +73,11 @@ img.serrated_blob {
 }
 
 img.model_photo {
-    width: auto;
-    height: 2000px;
-    position: relative;
-    margin: 800px 0 0 200px;
+    max-width: 100%;
+    height: auto;
+    /* position: relative;
+    margin: 800px 0 0 200px; */
+    display: block;
 }
 
 div.hero_section .quotation_mark_image {
