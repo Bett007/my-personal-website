@@ -1,1 +1,1 @@
-document.getElementById(grayscale).addEventListener("click",()=> {document.body.classList.toggle("grayscale-mode");});
+document.getElementById("grayscale").addEventListener("click",()=> {document.body.classList.toggle("grayscale-mode");});
