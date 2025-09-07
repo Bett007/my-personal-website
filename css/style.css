@@ -107,12 +107,9 @@ img.model_photo {
     border-radius: 40px;
 }
 
-body {
-    transition: filter 0.3s ease-in-out;
-}
-
 body.grayscale {
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
 }
 
 .hero_section h1 {
