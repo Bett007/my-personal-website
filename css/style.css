@@ -176,3 +176,13 @@ div.hero_section .quotation_mark_image {
     font-family: Metropolis;
     font-size: 16pt;
 }
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #FEFEFE;
+}
+
+.footer {
+    margin: 800px 0 0 200px;
+}
