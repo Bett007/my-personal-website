@@ -1,5 +1,5 @@
 .logo_image {
-    width: 60px;
+    width: 40px;
     height: auto;
     padding: 10px;
 }
@@ -20,15 +20,16 @@ font-family: Metropolis;
     position: absolute;
     font: bold;
     text-transform: uppercase;
-    margin-left: 100px;
-    font-size: 18pt;
+    margin-left: 60px;
+    font-size: 12pt;
 }
 
 #banner #navbar {
     font-family: Metropolis;
-    font: bold;
-    font-size: 18pt;
+    font-weight: medium ;
+    font-size: 12pt;
     justify-content: flex-end;
+    text-decoration: none;
 }
 
 ul {
@@ -39,12 +40,11 @@ ul {
     width: 40%;
 }
 
-ul>li {
+#banner #navbar ul>li {
     margin: 20px;
     align-items: center;
     text-transform: uppercase;
     list-style: none;
-    text-decoration: none;
 }
 
 div.hero_section {
@@ -75,7 +75,7 @@ div.hero_section .title_wrapper>p {
 }
 
 img.serrated_blob {
-    position: absolute;
+    position: relative;
     margin: 400px 0 0 100px;
     width: 1000px;
     height: auto;
@@ -84,13 +84,13 @@ img.serrated_blob {
 img.model_photo {
     width: auto;
     max-height: 100%;
-    position: absolute;
-    margin: 800px 0 0 200px;
+    position: relative;
+    margin: 600px 0 0 200px;
     display: block;
 }
 
 div.hero_section .quotation_mark_image {
-    position: absolute;
+    position: relative;
     margin: -150px 0 0 1400px;
     width: 100px;
     height: auto;
