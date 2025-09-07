@@ -30,11 +30,12 @@ ul {
     width: 40%;
 }
 
-ul li {
+ul>li {
     margin: 20px;
     align-items: center;
     text-transform: uppercase;
     list-style: none;
+    text-decoration: none;
 }
 
 div.hero_section {
@@ -44,6 +45,31 @@ div.hero_section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.title_wrapper {
+    position: absolute;
+    margin: 100px 0 -200px 1600px;
+    border-color: #FEFEFE;
+    border-radius: 15pt;
+    border-width: 5px;
+    border-style: solid;
+    padding: 0 50px 0 50px;
+    width: max-content;
+    text-align: center;
+    color: #DADADA;
+}
+
+div.hero_section .title_wrapper>p {
+    font-size: 24pt;
+    font-family: Metropolis;
+}
+
+img.serrated_blob {
+    position: absolute;
+    margin: 400px 0 0 100px;
+    width: 1000px;
+    height: auto;
 }
 
 img.model_photo {
@@ -80,13 +106,26 @@ div.hero_section .quotation_mark_image {
     margin: -50px 0 0 1200px;
 }
 
-.skills_card {
+.info_card_1 {
     background-color: #525866;
     border-radius: 10pt;
     width: 500px;
-    height: 600px;
+    height: 750px;
     padding: 40px;
     margin: 0 50px;
+    display: block;
+    justify-content: flex-start;
+}
+
+.info_card_2 {
+    background-color: #525866;
+    border-radius: 10pt;
+    width: 700px;
+    height: 750px;
+    padding: 40px;
+    margin: 0 50px;
+    display: block;
+    justify-content: flex-start;
 }
 
 .cards_section h2 {
@@ -94,7 +133,44 @@ div.hero_section .quotation_mark_image {
     font-family: Metropolis;
 }
 
-.cards_section h2+p{
-    font-size: 30px;
+.info_card_1>img.passport_image{
+    width: 500px;
+    height: auto;
+    border-radius: 4%;
+}
+
+.info_card .horizontal_line {
+    border: none;
+    border-top: 10px;
+    margin: 20px 0;
+    width: 400px;
+    height:4px;
+    border-color: #DADADA;
+}
+
+/* .info_card h2~img.quotation_mark_image {
+    width: 50px;
+    height: auto;
+    margin-left: 50px;
+} */
+
+.cards_section h2~p{
+    font-size: 28px;
     font-family: Metropolis;
+    margin: 40px 0 0 0;
+    color: #DADADA;
+}
+
+.skills_table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px 0 0 -40px;
+}
+
+.skills_table th, .skills_table td {
+    border: 2px solid #DADADA;
+    padding: 15px 180px 15px 50px;
+    text-align: left;
+    font-family: Metropolis;
+    font-size: 16pt;
 }
